@@ -17,3 +17,6 @@ JENKINS_USER=<jenkins-user>
  USER_API_KEY=<user-api-key>
  JENKINS_JOB_URL=http://<jenkins_server_url>/job/<your_jenkins_job_name>/build
  SPOT_FLEET_ID=<spot-fleet-id> # e.g sfr-79j584g1-5611-46n1-9cb5-39f0gh561236
+ 
+ Run it on your ~/.profile with the command: nohup bash /path/reorganize-tasks-after-spot-fleet-autoscale.sh &
+ 
